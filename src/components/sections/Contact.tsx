@@ -61,7 +61,7 @@ const submit = async (ev: React.FormEvent) => {
 
   } catch (error) {
     console.error("Email send failed:", error);
-    alert("Message send nahi hua, try again!");
+    alert("Message is not sent, try again!");
   }
 };
 
