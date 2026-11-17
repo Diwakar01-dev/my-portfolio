@@ -5,7 +5,7 @@
 
 Welcome to my personal portfolio repository! I'm **Diwakar Kumar**, a passionate developer who loves building modern, responsive, and user-friendly websites and web applications.
 
-## 🚀 About Me
+##  About Me
 
 - 👨‍💻 Full Stack Developer
 - 🌐 Web Developer
@@ -14,7 +14,7 @@ Welcome to my personal portfolio repository! I'm **Diwakar Kumar**, a passionate
 - 🎓 BCA Final Year Student
 - 💡 Passionate about technology, creativity, and innovation.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript, React.js
 - **Styling:** Tailwind CSS, Bootstrap
@@ -24,7 +24,7 @@ Welcome to my personal portfolio repository! I'm **Diwakar Kumar**, a passionate
 - **Tools:** Git, GitHub, VS Code, Figma
 - **Marketing:** SEO, Digital Marketing, Google Analytics
 
-## ✨ Portfolio Features
+##  Portfolio Features
 
 - Modern and professional UI/UX
 - Fully responsive design
@@ -36,7 +36,7 @@ Welcome to my personal portfolio repository! I'm **Diwakar Kumar**, a passionate
 - Contact section
 - Social media integration
 
-## 💻 Technologies Used
+##  Technologies Used
 
 - React.js
 - Vite
@@ -45,7 +45,7 @@ Welcome to my personal portfolio repository! I'm **Diwakar Kumar**, a passionate
 - CSS3
 - Tailwind CSS
 
-## ⚙️ Run Locally
+##  Run Locally
 
 Clone this repository:
 
