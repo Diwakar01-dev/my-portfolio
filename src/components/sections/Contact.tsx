@@ -8,11 +8,12 @@ import emailjs from "@emailjs/browser";
 interface FormState {
   name: string;
   email: string;
+  contact: string;
   subject: string;
   message: string;
 }
 
-const empty: FormState = { name: "", email: "", subject: "", message: "" };
+const empty: FormState = { name: "", email: "", contact: "", subject: "", message: "" };
 
 export default function Contact() {
   const [form, setForm] = useState<FormState>(empty);
@@ -24,6 +25,7 @@ export default function Contact() {
     if (!form.name.trim()) e.name = "Name is required";
     if (!form.email.trim()) e.email = "Email is required";
     else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) e.email = "Enter a valid email";
+    if (!form.contact.trim()) e.contact = "Contact is required";
     if (!form.subject.trim()) e.subject = "Subject is required";    
     if (!form.message.trim()) e.message = "Message is required";
     setErrors(e);
@@ -48,6 +50,7 @@ const submit = async (ev: React.FormEvent) => {
       {
         name: form.name,
         email: form.email,
+        contact: form.contact,
         subject: form.subject,
         message: form.message,
       },
@@ -177,6 +180,20 @@ const submit = async (ev: React.FormEvent) => {
             />
             {errors.subject && <p className="mt-1 text-xs text-red-500">{errors.subject}</p>}
           </div>
+          <div>
+            <label className="mb-1.5 block text-sm font-semibold text-main">Contact</label>
+            <input
+              value={form.contact}
+              onChange={(e) => update("contact", e.target.value)}
+              placeholder="+91 1234567890"
+              className={inputClass("contact")}
+            />
+            {errors.contact && <p className="mt-1 text-xs text-red-500">{errors.contact}</p>}
+
+          </div>
+
+
+
           <div>
             <label className="mb-1.5 block text-sm font-semibold text-main">Message</label>
             <textarea
