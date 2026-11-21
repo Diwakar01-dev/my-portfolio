@@ -54,7 +54,9 @@ const submit = async (ev: React.FormEvent) => {
         subject: form.subject,
         message: form.message,
       },
+      {
        publicKey: publicKey,
+      }
     );
 
     setSent(true);
