@@ -25,8 +25,8 @@ export const socials = [
 
 export const stats = [
   { label: "Years Experience", value: 2, suffix: "+" },
-  { label: "Projects Completed", value: 10, suffix: "+" },
-  { label: "Happy Clients", value: 1, suffix: "+" },
+  { label: "Projects Completed", value: 5, suffix: "+" },
+  { label: "Happy Clients", value: 5, suffix: "+" },
   { label: "Technologies", value: 20, suffix: "+" },
 ];
 

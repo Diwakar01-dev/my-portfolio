@@ -52,9 +52,7 @@ export default function About() {
             the gap between elegant interfaces and reliable engineering.
           </p>
           <p className="mt-4 leading-relaxed text-muted">
-            Over the past 4 years I've collaborated with startups and agencies, delivering 120+
-            projects ranging from marketing sites to complex full-stack platforms. I believe great
-            software is equal parts craft, empathy and attention to detail.
+            Over the past 2 years, I've gained hands-on experience working with a startup and independently building 2 complete projects. From development to implementation, I enjoy creating modern, responsive and user-friendly web applications with attention to detail.
           </p>
 
           <div className="mt-6 space-y-4">
